@@ -180,7 +180,7 @@ void draw() {
             for (int j =1;j <= 5;j++){
                 if(i==3){
                   if (j==1 || j==5){
-                    println(j);
+                    
                     pushMatrix();
                     translate(j*61,i*61);
                     image(enemy,Ex-305,Ey);
