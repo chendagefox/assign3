@@ -142,7 +142,7 @@ void draw() {
     
         Ex += 4;
         Ex = Ex % 946;
-        println(Ex);
+        
     switch (timesN) {
      //______________________________________________
     case first:
@@ -164,7 +164,7 @@ void draw() {
        
             for(int j=1;j <= 5;j++){
             pushMatrix();
-            translate(j*enemyWidth,j*enemyHeight);
+            translate(j*enemyWidth,305-j*enemyHeight);
             image(enemy,Ex-305,Ey);
             popMatrix();
             }
